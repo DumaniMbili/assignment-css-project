@@ -1,0 +1,218 @@
+/* Import the Roboto font family */
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(fonts/Roboto/Roboto-Medium.tff);
+}
+
+/* Apply the Roboto font family to the entire document */
+body {
+  font-family: 'Roboto-Medium', sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #1F2937;
+  color: #fff;
+}
+
+/* Style the header */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* Style the navigation */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 1rem;
+}
+
+.main-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.main-nav a:hover {
+  color: #00bfff;
+}
+
+/* Style the main title and subtext */
+.main-title {
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: left;
+
+}
+
+.main-subtext,
+.main-btn {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+/* Style the main button */
+.main-btn {
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #3882F6;
+  border-color: #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.main-btn:hover {
+  background-color: #1e90ff;
+}
+
+/* Style the main image container */
+.main-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #e5e7eb;
+}
+
+/* Style the main image */
+.main-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-section img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border: 3px solid #00bfff;
+}
+
+.info-section p {
+  text-align: center;
+  margin: 10px;
+}
+
+.info-section img:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.info-section img:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.info-section p {
+  margin-top: 0;
+}
+
+.testimonial-section {
+  background-color: #E5E7EB;
+  border-left: 6px solid #ccc;
+  margin: 20px 0;
+  padding: 20px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.testimonial-quote {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-indent: 40px;
+  position: relative;
+}
+
+.testimonial-quote:before {
+  content: open-quote;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: -20px;
+  color: #ccc;
+}
+
+.testimonial-quote:after {
+  content: close-quote;
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  color: #ccc;
+}
+
+.testimonial-author {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  text-align: right;
+}
+
+/* Style the call to action section */
+.cta-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  color: #fff;
+  border-radius: 10px;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.cta-subtext {
+  margin-right: 20px;
+}
+
+.cta-btn {
+  margin-left: 20px;
+  color:#fff; 
+  border-color: #fff;
+  background-color: #3882F6;
+}
+
+.cta button:hover {
+  
+  color: #fff;
+}
+
+/* Style the footer */
+footer {
+  background-color: #1f2937;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #fff;
+}
