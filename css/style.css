@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -53,7 +53,8 @@ body {
 
 /* Style the main title and subtext */
 .main-title {
-  font-size: 3rem;
+  font-size: 48px;
+  font-weight: bold;
   margin: 2rem 0;
   text-align: left;
 
@@ -105,7 +106,7 @@ body {
 }
 
 .info-section img {
-  width: 300px;
+  width: 150px;
   height: auto;
   margin: 10px;
   border: 3px solid #00bfff;
@@ -114,6 +115,7 @@ body {
 .info-section p {
   text-align: center;
   margin: 10px;
+  
 }
 
 .info-section img:first-child {
@@ -139,7 +141,9 @@ body {
 }
 
 .testimonial-quote {
-  font-size: 24px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -169,7 +173,7 @@ body {
 
 .testimonial-author {
   font-size: 18px;
-  font-style: italic;
+  font-weight: bold;
   margin-top: 20px;
   text-align: right;
 }
