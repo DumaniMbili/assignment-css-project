@@ -232,16 +232,14 @@ button:hover {
 }
 
 /* Style the footer */
-footer {
+.main-footer {
   display: flex;
   flex-direction: row;
   background-color: #1f2937;
   padding: 1rem;
   align-items: center;
-}
-
-footer p {
   margin: 0;
   font-size: 1.2rem;
   color: #fff;
+  justify-content: center;
 }
